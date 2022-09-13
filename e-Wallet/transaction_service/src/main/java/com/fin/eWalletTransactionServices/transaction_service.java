@@ -41,7 +41,7 @@ public class transaction_service {
                 .amount(trans_req_impl.getAmount())
                 .transaction_external_UUID(UUID.randomUUID().toString())
 //                .transactionStatus(TransactionStatus.)
-//                .transactionStatus(TransactionStatus.PENDING)
+                .transactionStatus(TransactionStatus.PENDING)
                 .remarks(trans_req_impl.getRem())
                         .build();
 
